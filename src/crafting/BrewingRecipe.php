@@ -25,6 +25,6 @@ namespace pocketmine\crafting;
 
 use pocketmine\item\Item;
 
-interface BrewingRecipe{
+interface BrewingRecipe{ 
 	public function getResultFor(Item $input) : ?Item;
 }
