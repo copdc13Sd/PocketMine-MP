@@ -52,7 +52,7 @@ final class Translatable{
 	/**
 	 * @return string[]|Translatable[]
 	 */
-	public function getParameters() : array{
+	public function getParameters() : array{ 
 		return $this->params;
 	}
 
